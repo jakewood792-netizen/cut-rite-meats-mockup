@@ -238,11 +238,14 @@ nav a:hover, nav a.active {
 .page-banner p { color: #f1ece3; }
 
 /* Stats row */
+.stats-wrap { padding: 40px 0; }
 .stats-row {
   display: flex;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  justify-content: center;
   background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 .stat {
   flex: 1;
@@ -255,7 +258,6 @@ nav a:hover, nav a.active {
 .stat:first-child { border-left: none; }
 .stat svg { width: 28px; height: 28px; fill: var(--red); margin-bottom: 10px; }
 .stat .stat-label { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; color: var(--gray); }
-.stats-row { justify-content: center; }
 
 /* Section head */
 .section-head { text-align: center; max-width: 660px; margin: 0 auto 46px; }
